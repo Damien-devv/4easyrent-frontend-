@@ -4,6 +4,7 @@ node_modules/
 # Build files
 dist/
 build/
+.cache/
 
 # Environment files
 .env
@@ -16,6 +17,9 @@ build/
 logs/
 *.log
 npm-debug.log*
+
+# Test coverage
+coverage/
 
 # Editor directories and files
 .idea/
@@ -34,3 +38,8 @@ npm-debug.log*
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Ensure these important files are tracked
+!package-lock.json
+!src/
+!public/
