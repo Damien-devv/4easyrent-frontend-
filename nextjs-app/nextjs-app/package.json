@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "ln -s src/app app && next build && rm -f app"
   },
   "dependencies": {
     "react": "^19.0.0",
