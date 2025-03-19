@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/app/page.tsx",
+      "src": "package.json",
       "use": "@vercel/next",
       "config": {
         "distDir": ".next",
-        "srcDir": "src/app"
+        "rootDirectory": "src/app"
       }
     }
   ],
